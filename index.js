@@ -18,51 +18,41 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  let appendKitten =  [...kittens, name];
-
-  return appendKitten;
+  return [...kittens, name];
 }
 
 function prependKitten(name) {
-  let prependKitten =  [name, ...kittens];
-
-  return prependKitten;
+  return [name, ...kittens];
 }
 
 function removeLastKitten(name) {
-  let removeLastKitten =  kittens.slice(0, kittens.length - 1);
-
-  return(removeLastKitten);
+  return kittens.slice(0, kittens.length - 1);
 }
 
 function removeFirstKitten(name) {
-  let removeFirstKitten =  kittens.slice(1);
-
-  return(removeFirstKitten);
+  return  kittens.slice(1);
 }
 
 // function appendKitten(name) {
-//   return appendKitten =  [name, ...kittens];
+//   let appendKitten =  [...kittens, name];
+//
+//   return appendKitten;
 // }
 //
-// function addElementToBeginningOfArray(array, element) {
-//   array = [element, ...array];
-//   return(array);
-// }
 // function prependKitten(name) {
-//   kittens =  [name, ...kittens];
+//   let prependKitten =  [name, ...kittens];
 //
-//   return(kittens);
+//   return prependKitten;
 // }
 //
 // function removeLastKitten(name) {
-//   kittens =  kittens.slice(1, kittens.length - 1);
+//   let removeLastKitten =  kittens.slice(0, kittens.length - 1);
 //
-//   return(kittens);
+//   return(removeLastKitten);
 // }
-
+//
 // function removeFirstKitten(name) {
-//   kittens =  kittens.slice(1);
+//   let removeFirstKitten =  kittens.slice(1);
 //
-//   return(kittens);
-// }
+//   return(removeFirstKitten);
+// 
